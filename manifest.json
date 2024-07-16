@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Download Renamer",
+    "version": "1.0",
+    "description": "Changes the default filename of downloads to something more unique",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "applications": {
+      "gecko": {
+        "id": "download-filenames-that-should-be-different@maxstuff.net"
+      }
+    }
+  }
+  
